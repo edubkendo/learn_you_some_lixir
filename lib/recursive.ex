@@ -56,4 +56,3 @@ defmodule Recursive do
 		_tail_lenient_zip(one, two, [{x,y}|acc])
 	end
 end
-

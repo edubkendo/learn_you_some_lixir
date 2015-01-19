@@ -1,6 +1,6 @@
 defmodule Tree do
 	def empty(), do: {:node, nil}
-	
+
 	def insert(key, val, {:node, nil}) do
 		{:node, {key, val, {:node, nil}, {:node, nil}}}
 	end

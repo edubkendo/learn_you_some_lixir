@@ -15,13 +15,13 @@ defmodule HHFuns do
 	def incr(x), do: x + 1
 	def decr(x), do: x - 1
 
-  def a() do
-     secret = "pony"
-     fn -> secret end
-  end
-  def b(f) do
-     "a/0's password is #{f.()}"
-  end
+	def a() do
+	   secret = "pony"
+	   fn -> secret end
+	end
+	def b(f) do
+	   "a/0's password is #{f.()}"
+	end
 
 	def even(l), do: Enum.reverse(_even(l, []))
 	defp _even([], acc), do: acc
